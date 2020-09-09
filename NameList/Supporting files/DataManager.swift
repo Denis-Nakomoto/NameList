@@ -37,5 +37,4 @@ class DataManager {
         return (0..<count).map{ index in sequences.map{ $0[index] } }
     }
     
-    
 }

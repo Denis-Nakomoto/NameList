@@ -14,8 +14,4 @@ class TabBarViewController: UITabBarController {
     var persons: [Person] {
         dataManager.persons
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
