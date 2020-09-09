@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabBarControllerViewController: UITabBarController {
+class TabBarViewController: UITabBarController {
 
     var dataManager = DataManager()
     var persons: [Person] {

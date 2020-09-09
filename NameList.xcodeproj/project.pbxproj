@@ -17,7 +17,7 @@
 		9267F6692507976000F45271 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267F6682507976000F45271 /* DetailViewController.swift */; };
 		9267F66B250797C300F45271 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267F66A250797C300F45271 /* Users.swift */; };
 		9267F66E25079C5C00F45271 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267F66D25079C5C00F45271 /* DataManager.swift */; };
-		9267F67225087C9600F45271 /* TabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267F67125087C9500F45271 /* TabBarControllerViewController.swift */; };
+		9267F67225087C9600F45271 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9267F67125087C9500F45271 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		9267F6682507976000F45271 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9267F66A250797C300F45271 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		9267F66D25079C5C00F45271 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		9267F67125087C9500F45271 /* TabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerViewController.swift; sourceTree = "<group>"; };
+		9267F67125087C9500F45271 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				9267F662250794A100F45271 /* NamesListViewController.swift */,
-				9267F67125087C9500F45271 /* TabBarControllerViewController.swift */,
+				9267F67125087C9500F45271 /* TabBarViewController.swift */,
 				9267F6682507976000F45271 /* DetailViewController.swift */,
 				9267F6642507952200F45271 /* NamesInSectionsViewController.swift */,
 			);
@@ -191,7 +191,7 @@
 				9267F66E25079C5C00F45271 /* DataManager.swift in Sources */,
 				9267F64C2507926E00F45271 /* AppDelegate.swift in Sources */,
 				9267F66B250797C300F45271 /* Users.swift in Sources */,
-				9267F67225087C9600F45271 /* TabBarControllerViewController.swift in Sources */,
+				9267F67225087C9600F45271 /* TabBarViewController.swift in Sources */,
 				9267F64E2507926E00F45271 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

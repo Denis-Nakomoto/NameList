@@ -14,7 +14,7 @@ class NamesInSectionsViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tabBar = tabBarController as! TabBarControllerViewController
+        let tabBar = tabBarController as! TabBarViewController
         persons = tabBar.persons
     }
     
