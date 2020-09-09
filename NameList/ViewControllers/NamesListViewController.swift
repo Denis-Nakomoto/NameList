@@ -35,7 +35,5 @@ class NamesListViewController: UITableViewController {
         guard let detailVC = segue.destination as? DetailViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         detailVC.details = persons[indexPath.row]
-        guard let namesInSecctionVC = segue.destination as? NamesInSectionsViewController else { return }
-        namesInSecctionVC.persons = persons
     }
 }
