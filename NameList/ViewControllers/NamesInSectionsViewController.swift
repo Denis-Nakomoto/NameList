@@ -12,12 +12,6 @@ class NamesInSectionsViewController: UITableViewController {
     
     var persons: [Person]!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let tabBar = tabBarController as! TabBarViewController
-        persons = tabBar.persons
-    }
-    
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
         return persons.count
@@ -38,11 +32,9 @@ class NamesInSectionsViewController: UITableViewController {
         case 0:
             cell.imageView?.image = UIImage(systemName: "phone")
             cell.textLabel?.text = person.phone
-        case 1:
+        default:
             cell.imageView?.image = UIImage(systemName: "envelope")
             cell.textLabel?.text = person.email
-        default:
-            break
         }
         return cell
     }
